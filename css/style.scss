@@ -1,0 +1,377 @@
+$red: #DB1A1A;
+$green: #3A9739;
+$yellow: #F4A311;
+
+#navbar {
+	z-index: 1;
+}
+#ribbon {
+	background-color: rgb(219, 26, 26);
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131, 21, 21, 0.5) 40px);
+	&::after {
+		content: '';
+		background-color: transparent;
+		display: block;
+		height: 20px;
+		width: 50%;
+		margin: 0 auto;
+		position: relative;
+		left: auto;
+		margin-top: -40px;
+	}
+}
+#separator-ribbon {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+	.content {
+		width: 150%;
+		height: 150px;
+		margin-left: -25%;
+		border-bottom-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+	}
+}
+#birthday {
+	background-color: $red;
+	position: relative;
+	margin-top: -20px;
+	z-index: 10;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	img {
+		position: relative;
+		margin-top: -30px;
+	}
+}
+
+.contenedor {
+	font-weight: normal;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding: 14px 0;
+	color: #FFF;
+	background: rgba(0, 0, 0, .6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+	display: block;
+	color: white;
+	font-size: 16px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	position: relative;
+	width: 100%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	outline: none;
+	background: rgba(244,163,17,1);
+	font-family: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	.form {
+		background: rgb(210, 137, 0);
+	}
+}
+.form {
+	font-weight: normal;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding: 14px 0;
+	color: #FFF;
+	background: rgba(0, 0, 0, .6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+	display: block;
+	color: white;
+	font-size: 16px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	position: relative;
+	background: rgba(255, 253, 253, 0.7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid rgb(171, 6, 6);
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+	width: 100%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	outline: none;
+	background: rgba(244,163,17,1);
+	font-family: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.form-header {
+	font-weight: normal;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding: 14px 0;
+	color: #FFF;
+}
+.form-title {
+	font-weight: normal;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding: 14px 0;
+	span {
+		color: #FFF;
+	}
+}
+.form-label {
+	display: block;
+	color: white;
+	font-size: 16px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	position: relative;
+}
+.conenedor {
+	background: rgba(255, 253, 253, 0.7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid rgb(171, 6, 6);
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+.form-input {
+	background: rgba(255, 253, 253, 0.7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid rgb(171, 6, 6);
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form-textarea {
+	background: rgba(255, 253, 253, 0.7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid rgb(171, 6, 6);
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+.btn-submit {
+	width: 100%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	outline: none;
+	background: rgba(244,163,17,1);
+	font-family: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	&:hover {
+		background: rgb(210, 137, 0);
+	}
+}
+
+#games {
+	background: rgb(225, 46, 46);
+	background: url(img/bg-02.png), linear-gradient(0deg, rgb(226, 68, 68) 57%, rgba(99,196,255,1) 57%);
+	background-repeat: repeat-x;
+	background-size: 75%;
+	margin-top: -20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#cards {
+	background-image: url(../img/fondo-01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin-top: -20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#party {
+	background: url(../img/bg-04.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin-top: -20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.card-border {
+	border: solid 10px white;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: all ease-out 0.2s;
+	&:hover {
+		transform: scale(1.05);
+	}
+}
+
+/*CARD MARIO*/
+.card-title1 {
+	font-weight: bold;
+	color: rgb(2, 232, 33);
+}
+
+/*CARD YOSHI*/
+.card-title2 {
+	font-weight: bold;
+	color: $green;
+}
+
+/*CARD BOWSER*/
+.card-title3 {
+	font-weight: bold;
+	color: $yellow;
+}
+.text-shadow {
+	text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+#separator-amiibos {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+	.content {
+		background: url(../img/bg-03.png);
+		width: 110%;
+		height: 100px;
+		margin-left: -5%;
+		border-top-left-radius: 50%;
+		border-top-right-radius: 50%;
+	}
+}
+#separator-amiibos-footer {
+	height: 20vw;
+}
+#amiibos {
+	background: url(../img/bg-01.png),url(../img/bg-03.png);
+	background-repeat: no-repeat, repeat;
+	background-position: bottom center, center center;
+	background-size: 100%, auto;
+}
+.amiibo {
+	cursor: pointer;
+	transition: all ease-out 0.2s;
+	&:hover {
+		transform: scale(1.05);
+	}
+}
+.amiibo-name {
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 15px;
+}
+.about {
+	position: relative;
+	left: 10rem;
+}
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.justificado {
+	text-align: justify;
+}
+#play {
+	background-size: 50px 50px;
+	display: flex;
+	align-items: center;
+}
+#footer {
+	background: url(../img/bg-04.png);
+	background-color: $red;
+	background-size: 50px 50px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+/*COLORES BOTONES*/
+
+.green {
+    color: rgba(58,151,57,1);
+}
+
+.red {
+    @extend .button;
+    color:#DB1A1A;
+}
+
+.yellow {
+    @extend .button;
+    color: rgba(244,163,17,1);
+}
+
+.blue {
+    @extend .button;
+    color: rgb(17, 106, 214);
+}
+
+.buttons a:hover{
+    transform: scale(1.2);
+}
+
+
